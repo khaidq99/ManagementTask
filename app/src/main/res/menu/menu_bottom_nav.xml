@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_notdone"
+        android:title="@string/action_notdone"
+        android:icon="@drawable/not_done" />
+    <item
+        android:id="@+id/action_done"
+        android:title="@string/action_done"
+        android:icon="@drawable/done" />
+</menu>

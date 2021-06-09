@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BaiTapCuoiKy</string>
+    <string name="action_notdone">Chưa hoàn thành</string>
+    <string name="action_done">Đã hoàn thành</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

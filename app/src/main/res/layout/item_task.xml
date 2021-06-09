@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="110dp">
+
+        <LinearLayout
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical"
+            android:layout_width="200dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/titleTask"
+                android:layout_marginTop="20dp"
+                android:textSize="22dp"
+                android:textColor="#005D0F"
+                android:text="Thi học kì"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/desTask"
+                android:textSize="19dp"
+                android:textColor="#423737"
+                android:layout_marginTop="7dp"
+                android:text="Môn học: Android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="170dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/dateTask"
+                android:textSize="22dp"
+                android:textColor="#00BCD4"
+                android:gravity="center"
+                android:text="18/05/2021"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/statusTask"
+                android:textSize="20dp"
+                android:textColor="#D3203B"
+                android:gravity="left"
+                android:layout_marginTop="18dp"
+                android:text="Chưa hoàn thành"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
